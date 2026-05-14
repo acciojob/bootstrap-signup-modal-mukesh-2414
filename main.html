@@ -15,9 +15,10 @@
 	    <div class="modal-content">
 	    <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="signupModalLabel">Sign Up</h4>
+        <h4 class="modal-title" id="signupModalLabel">Creat Account</h4>
       </div>
       <div class="modal-body">
+		  <form id="signupform">
 		<label for="email">Enter address:</label><br>
 		<input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
 		<small class="form-text text-muted">Your information is safe with us.</small><br>
@@ -28,8 +29,9 @@
 		<input type="password" class="form-control" id="confirmpassword" name="confirm password" placeholder="Confirm Password">
 		<br>
 		  <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="close"></button>
         <button type="button" class="btn btn-primary">Save changes</button>
+		  </form>
 		  </div>
 	  </div>
 		</div>
